@@ -1,0 +1,164 @@
+.columnwrapper {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  text-align: justify; 
+  color:white;
+  font-size: 12px;
+  gap: 20px;
+  width:1400px;
+}
+
+.gallerywrapper {
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify; 
+  color:white;
+  font-size: 12px;
+  margin: 40px auto 0 auto;
+  gap: 20px;
+  padding:15px;
+  width:1000px;
+}
+
+.galleryitems {
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: center; 
+ align-content: center;
+ align-items: center;
+ padding:10px;
+ gap:15px;
+ 
+}
+
+.header {
+  text-align: justify; 
+  color:white;
+  font-size: 12px;
+  width:1400px;
+  font-family: verdana;
+  line-height: 1.6;
+}
+
+.footer {
+font-size:10px;
+}
+
+.main-column {
+  flex: 3;
+  order: 2;
+  
+}
+
+.aside-1 {
+  flex: 1;
+  order:1;
+
+}
+
+.aside-2 {
+  flex: 1;
+  order: 3;
+
+}
+
+.nav {
+	font-size:14px;
+	display: flex; 
+	justify-content: center; 
+	align-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+
+
+.buttoncontainer {
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: center; 
+ align-content: center;
+ align-items: center;
+ gap:9px;
+	
+}
+
+body {
+	color:white;
+	font-size: 12px;
+	text-align: center;
+	background-color:black;
+	padding: 2em; 
+	margin: auto;
+    font-family: verdana;
+	line-height: 1.6;
+	width:1400px;
+}
+
+a, a:link, a:visited{
+
+	color:white;
+	
+}
+
+.tab {
+  text-indent:40px;
+
+}
+
+
+.center {
+text-align: center;
+}
+
+
+figcaption {
+  text-align:center;
+  width:900px;
+}
+
+.tablecenter {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  }
+  
+
+.textcontain {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted red;
+}
+
+.textcontain .text {
+  visibility: hidden;
+  width: 150px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.textcontain:hover .text {
+  visibility: visible;
+}
+
+h1, h2, h3, main, header, footer {
+	text-align:center;
+}
+	
+.main {
+	text-align: justify;
+}
+.divider {
+	border: 1px solid white; 
+	border-collapse: collapse;

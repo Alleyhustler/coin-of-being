@@ -1,0 +1,39 @@
+ body {
+  text-align:center;
+  background-color: black;
+  color:white;
+  }
+  p {
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.box {
+padding:10px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color:white; 
+}
+a:active {
+  color:white
+}
+ul {
+  display: table;
+  margin: 0 auto;
+  text-align: justify;
+}
+.tab {
+  text-indent:40px;
+}
+.divider {
+	border: 1px solid white; 
+	border-collapse: collapse;
+}
